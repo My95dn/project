@@ -1,0 +1,371 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.backgroud {
+    background: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg) top center / contain no-repeat;
+    padding-top: 50%;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.app-text {
+    position: absolute;
+    top: 25%;
+    left: 39%;
+}
+
+.text {
+    display: flex;
+    margin: 0 0 15px 30px;
+}
+
+.textt {
+    margin-bottom: 40px;
+}
+
+.text>.sub-text {
+    font-size: 2rem;
+    letter-spacing: 10px;
+}
+
+.text>.span-text {
+    font-size: 2rem;
+    letter-spacing: 10px;
+}
+
+.app-text>.btn {
+    text-align: center;
+}
+
+.btn>.btn-sub {
+    outline: none;
+    border: none;
+    padding: 15px 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 128, 128);
+    font-size: 0.9rem;
+    letter-spacing: 4px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px -2px #000;
+}
+
+.main-sub>.content-text-sub > .border {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid #000;
+    border-right: 10px solid transparent;
+}
+.main-sub>.content-text-sub > .border::after {
+    content: '';
+    padding: 5px;
+    background-color: #ccc;
+  
+    position: absolute;
+    top: -37%;
+    left: 49%;
+    border-radius: 999px;
+   
+}
+.test-content > .content-text-sub {
+    display: flex;
+    justify-content: center;
+}
+.content-text-sub {
+    display: flex;
+    justify-content: center;
+}
+
+.main-sub > .content-text-sub {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.main-sub > .content-text-sub::after {
+    content: '...........................................';
+    position: absolute;
+    left: 11%;
+    top: -43%;
+
+}
+
+.main-sub > .content-text-sub::before {
+    content: '...........................................';
+    position: absolute;
+    left: 56%;
+    top: -43%;
+
+}
+
+.main-sub > .text-content {
+    margin-top: 4rem;
+}
+
+.main-text > .main-sub {
+    text-align: center;
+    width: 46rem;
+    margin: auto;
+}
+.content-text {
+    margin-bottom: 1.2rem;
+}
+ 
+.text-content > .text-h5 {
+    display: inline-block;
+    font-weight: 200;
+}
+
+.text-content > .sed {
+    
+    font-weight: 700;
+}
+
+.main-sub > .text-content {
+    line-height: 1.9rem;
+}
+.main-text {
+    width: 80%;
+    margin: auto;
+    background-color: #ccc;
+    padding: 5rem 0;
+    
+}
+.container-sub > .content-text-sub {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.content-text-sub > .border {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid #000;
+    border-right: 10px solid transparent;
+}
+
+.container-sub {
+    width: 80%;
+    margin: auto;
+    padding: 5rem 0;
+}
+.container-sub > .content-text-sub::before {
+    content: '...........................................';
+    position: absolute;
+    left: 31%;
+    top: -43%;
+}
+.container-sub > .content-text-sub::after {
+    content: '...........................................';
+    position: absolute;
+    left: 53%;
+    top: -43%;
+}
+.content-text-sub > .border::after {
+    content: '';
+    padding: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: -23%;
+    left: 50%;
+    border-radius: 999px;
+}
+.text-h2 {
+    text-align: center;
+}
+.content-sub > .contents {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.image {
+    width: 95%;
+}
+.app-content > .sub-title {
+    margin: 2.5rem 0;
+    position: relative;
+}
+.app-content > .sub-title::after {
+    position: absolute;
+    content: '';
+    background-color: #3399FF;
+    left: 44%;
+    top: 181%;
+    width: 3rem;
+    height: 0.4rem;
+
+
+}
+.text-contents {
+    width: 70%;
+    line-height: 1.4rem;
+}
+.contain > .app-content {
+    text-align: center;
+}
+.app-content > .app-context {
+    text-align: -webkit-center;
+}
+.content-sub {
+    margin-bottom: 4rem;
+}
+.content-text-sub > .content-app {
+    display: flex;
+}
+.content-app > .container-content {
+   display: flex;
+   justify-content: center;
+}
+.text-p > .content-p {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+.content-text-sub {
+    width: 80%;
+    margin: auto;
+}
+.content-app > .container-image {
+    width: 100%;
+}
+.content-image > .images {
+    width: 100%;
+    height: 100%;
+}
+.content-image {
+    width: 70%;
+    overflow: hidden;
+}
+.container-content > .content-borders {
+    position: relative;
+    
+}
+
+.borders {
+    margin-top: 1.5rem;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid #000;
+    border-right: 10px solid transparent;
+}
+.borders::after {
+    content: '....................................';
+    padding: 3px;
+    position: absolute;
+    top: 48%;
+    left: 22%;
+    border-radius: 999px;
+}
+.borders::before {
+    content: '....................................';
+    padding: 3px;
+    position: absolute;
+    top: 48%;
+    left: 56%;
+    border-radius: 999px;
+}
+.text-p {
+    width: 100%;
+}
+
+.content-p > .select-text {
+    width: 63%;
+    line-height: 1.6rem;
+}
+.container-content > .main-content {
+    margin-top: 4rem;
+}
+.main-content > .content-borders {
+    text-align: center;
+    position: relative;
+}
+.content-box {
+    text-align: center;
+    margin: 9rem 0 9rem 0;
+}
+.content-box > .btn-content {
+    padding: 5px;
+    background-color: #000;
+    border-radius: 999px;
+    border: solid #ccc;
+    cursor: pointer;
+}
+.content-box > .btn-content:hover {
+    background-color: #9999FF;
+}
+.content-box > .btn-contents:hover {
+    background-color: #9999FF;
+}
+.content-box > .btn-contents {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 999px;
+    border: solid #ccc;
+    cursor: pointer;
+}
+.content {
+    overflow: hidden;
+}
+.backgroud-content {
+    background: url(https://bizweb.dktcdn.net/100/438/408/articles/menh-moc-sinh-nam-nao-yody-vn.jpg?v=1680490844217) top center / cover no-repeat;
+    width: 80%;
+    margin: auto;
+    padding-top: 3%;
+}
+.sub-bachgroud-text > .app-backgourd {
+    display: flex;
+}
+.backgroud-content > .backgroud-text {
+    text-align: center;
+}
+.backgroud-text > .sub-bachgroud-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+
+.sub-bachgroud-texts {
+    padding: 12px;
+    background-color: #00CC99;
+    display: inline-block;
+    border-radius: 999px;
+    margin: 1rem 0 2rem 0;
+}
+.sub-bachgroud-texts > .btn-border-content {
+    
+    border: none;
+}
+.backgroud-content > .main-app {
+    margin-bottom: 4rem;
+}
+.main-app > .backgroud-text {
+    text-align: center;
+}
+
