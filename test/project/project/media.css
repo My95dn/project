@@ -1,0 +1,57 @@
+/* responsive mobile */
+@media screen and (min-width: 320px){
+    .backgroud > .app-text {
+        padding: 0;
+    }
+    .text > .sub-text {
+        font-size: 0.8rem;
+    }
+    .text > .span-text {
+        font-size: 0.8rem;
+    }
+    .text {
+        margin: 0 0 15px 0;
+    }
+    .text-h3 {
+        line-height: 1.3rem;
+    }
+    .btn > .btn-sub {
+        font-size: 0.7rem;
+        padding: 13px 22px;
+    }
+    .main-text > .main-sub {
+        width: 24rem;
+        margin: 0;
+    }
+    .main-sub > .text-content {
+        padding: 20px;
+    }
+    .text-content>.text-h5 {
+        font-size: 0.85rem;
+        
+    }
+    .text-content> .sed {
+        font-size: 0.85rem;
+    }
+    .span {
+        font-size: 0.85rem;
+    }
+    .main-sub>.content-text-sub {
+        display: none;
+    }
+    .container-sub>.content-text-sub {
+        display: none;
+    }
+    .contents {
+        flex-wrap: wrap;
+    }
+    .text-contents {
+        font-size: 0.85rem
+    }
+    .app-image {
+        margin-top: 3rem;
+    }
+    .container-sub {
+        padding: 5rem 0 0 0;
+    }
+}
